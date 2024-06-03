@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; 
+    justify-items: center; 
+}
+
+.jedi {
+    grid-column: 1 / 2;
+}
+
+.republica {
+    grid-column: 3 / 4;
+}
+
+.cronologia {
+    grid-column: 5 / 6;
+}
+
+.rebelde {
+    grid-column: 2/3;
+}
+
+.sith {
+    grid-column: 4 / 5;
+}
