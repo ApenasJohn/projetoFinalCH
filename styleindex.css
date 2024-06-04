@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+.parallax {
+    height: 500px;
+    background-image: url('media/Sem\ título.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
