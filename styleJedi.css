@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('media/Starjedi.ttf') format('truetype');
+  }
+
+  .share-tech-regular {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+  }
+
+  .par {
+    background-image: url(media/headerpc.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .par h1 {
+    font-family: 'Open Sans'; 
+    font-size: 100px;
+    align-self: center;
+    z-index: 1;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.56);  
+    list-style: none;  
+}
+
+nav a {
+    display: inline-flex;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    padding: 10px;
+    background-color: white;
+    transition: background-color 0.5s    
+}
+
+nav a:hover {
+    background-color: black;
+    color:yellow;
+    transition: background-color 0.5s;
+}
+
+.paiLuke {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.lukeIMG {
+    width: 250px;
+    height: 250px;
+}
+
+.lukeTXT{
+    font-size: 20px;
+    padding-left: 20px;
+
+  }
+
+h2 {
+    font-weight: bold;
+}
