@@ -1,36 +1,66 @@
 @charset "utf-8";
 
-.parallax {
-    height: 500px;
-    background-image: url('media/Sem\ título.png');
+@font-face {
+    font-family: 'Open Sans';
+    src: url('media/Starjedi.ttf') format('truetype');
+  }
+
+  .share-tech-regular {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .par {
+    background-image: url(media/headerpc.jpg);
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px; 
-    justify-items: center; 
-}
+    z-index: -1;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.jedi {
-    grid-column: 1 / 2;
-}
+  .par h1 {
+    font-family: 'Open Sans'; 
+    font-size: 100px;
+    align-self: center;
+    z-index: 1;
+  }
 
-.republica {
-    grid-column: 3 / 4;
-}
+  main {
+    background-image: url(media/headerpc.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    height: 80;
+  }
 
-.cronologia {
-    grid-column: 5 / 6;
-}
+  footer {
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: 10%;
+  }
 
-.rebelde {
-    grid-column: 2/3;
-}
-
-.sith {
-    grid-column: 4 / 5;
-}
+ 
