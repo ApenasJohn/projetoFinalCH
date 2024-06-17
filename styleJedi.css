@@ -12,7 +12,7 @@
   }
 
   *{ 
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
     font-family: "Share Tech", sans-serif;
     font-weight: 400;
@@ -22,6 +22,7 @@
 
   .par {
     background-image: url(media/headerpc.jpg);
+    margin: 0px;
     min-height: 700px;
     background-attachment: fixed;
     background-position: center;
@@ -68,23 +69,52 @@ nav a:hover {
     transition: background-color 0.5s;
 }
 
-.paiLuke {
+.esqPai {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
 
-.lukeIMG {
+.esqIMG {
     width: 250px;
     height: 250px;
 }
 
-.lukeTXT{
-    font-size: 20px;
+.esqTXT{
     padding-left: 20px;
-
   }
 
 h2 {
     font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.notaveis {
+  font-size: 50px;
+}
+
+.dirPai {
+  display: flex;
+  align-items: flex-start;
+  text-align: end;
+  justify-content: space-between;
+}
+
+.dirIMG{
+  order: 2
+}
+
+.dirTXT{
+  order: 1
+}
+
+footer {
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-align: center;
+  height: 10%;
 }
