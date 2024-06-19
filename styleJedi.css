@@ -12,12 +12,17 @@
   }
 
   *{ 
-    margin: 5px;
+    margin: 0px;
     padding: 0px;
     font-family: "Share Tech", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 23px;
+  }
+
+  main {
+    max-width: 80%;
+    margin: auto;
   }
 
   .par {
@@ -108,6 +113,7 @@ h1 {
 }
 
 .dirTXT{
+  padding-right: 20px;
   order: 1
 }
 
