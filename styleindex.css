@@ -18,6 +18,8 @@
     font-weight: 400;
     font-style: normal;
     background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
 
   }
 
@@ -41,7 +43,7 @@
     font-size: 29px;
     align-self: center;
     z-index: 1;
-    background-color: white;
+    color: white;
   }
 
   main {
@@ -71,7 +73,6 @@
     flex-flow: row wrap;
     justify-content: center;
     align-content: space-around;
-    background-color: white;
 }
 
 .principal {
