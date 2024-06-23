@@ -86,8 +86,8 @@ nav a:hover {
 }
 
 .cenIMG {
-  width: 150px;
-  height: 400px;
+  width: 1500px;
+  height: 200px;
   display: flex;
   justify-content: center;
 }
@@ -124,8 +124,25 @@ h1 {
   font-weight: bold;
 }
 
-.notaveis {
+.titulo {
+  text-align: center;
   font-size: 50px;
+}
+
+.notaveis {
+  font-size: 40px;
+}
+
+.capitais {
+  font-size: 40px;
+}
+
+.chanceler {
+  font-size: 40px;
+}
+
+strong {
+  font-weight: bold;
 }
 
 footer {
