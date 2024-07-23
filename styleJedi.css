@@ -75,6 +75,7 @@ nav a:hover {
 }
 
 .esqPai {
+  text-align: justify;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -86,6 +87,7 @@ nav a:hover {
 }
 
 .esqTXT{
+    text-align: justify;
     padding-left: 20px;
   }
 
@@ -113,6 +115,7 @@ h1 {
 }
 
 .dirTXT{
+  text-align: justify;
   padding-right: 20px;
   order: 1
 }

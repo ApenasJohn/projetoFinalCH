@@ -76,13 +76,16 @@ nav a:hover {
 }
 
 .esqPai {
-    display: flex;
+    display: auto;
+    text-align: justify;
     align-items: flex-start;
     justify-content: space-between;
+    margin: 1px;
 }
 
 .esqIMG {
   padding-right:20px;
+  max-width: fit-content;
 }
 
 .esqTXT{
@@ -102,16 +105,19 @@ h1 {
 }
 
 .dirPai {
-  display: flex;
+  display: auto;
+  text-align: justify;
   align-items: flex-start;
-  text-align: end;
   justify-content: space-between;
+  margin: 1px;
 }
 
-.dirIMG{
-  order: 2
+.dirIMG {
+  order: 2;
+  max-width: fit-content;
+  align-self: auto;
+  border-width: 10px 10px 10px 0;
 }
-
 .dirTXT{
   padding-right: 20px;
   order: 1
@@ -140,6 +146,8 @@ body {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  display: auto;
+  text-align: justify;
 }
 
 .timeline::after {
@@ -151,6 +159,8 @@ body {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+  display: auto;
+  text-align: justify;
 }
 
 .container {
@@ -171,6 +181,8 @@ body {
   top: 15px;
   border-radius: 50%;
   z-index: 1;
+  display: auto;
+  text-align: justify;
 }
 
 .left {
@@ -192,6 +204,8 @@ body {
   border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
+  display: auto;
+  text-align: justify;
 }
 
 .right::before {
@@ -205,6 +219,8 @@ body {
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
+  display: auto;
+  text-align: justify;
 }
 
 .right::after {
@@ -234,6 +250,8 @@ body {
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
+    display: auto;
+    text-align: justify;
   }
 
   .left::after, .right::after {

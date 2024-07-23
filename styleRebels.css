@@ -18,11 +18,13 @@
     font-weight: 400;
     font-style: normal;
     font-size: 23px;
+    
   }
 
   main {
     max-width: 80%;
     margin: auto;
+    text-align: justify;
   }
 
   .par {
@@ -39,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: justify;
   }
 
   .par h1 {
@@ -87,6 +90,7 @@ nav a:hover {
 
 .esqTXT{
     padding-left: 20px;
+    text-align: justify;
   }
 
 h2 {
@@ -116,9 +120,10 @@ h1 {
   order: 2
 }
 
-.dirTXT{
+.dirTXT {
+  text-align: justify;
+  order: 1;
   padding-right: 20px;
-  order: 1
 }
 
 footer {
